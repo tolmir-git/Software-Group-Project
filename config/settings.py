@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     "apps.team_schedule",
     "apps.team_messages",
     "apps.teams.apps.TeamsConfig",
-    "bootstrap5",]
+    #"bootstrap5",  # TODO: Add django-bootstrap5 to requirements.txt
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
